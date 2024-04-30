@@ -12,6 +12,7 @@ def greeting()
         surname=gets.chomp
     end
     
+    
     age=0
     while age==0
         puts "Введите возраст: "
