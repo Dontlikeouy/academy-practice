@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Выводит все строки
 def index(file)
   file.rewind
