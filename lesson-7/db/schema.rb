@@ -12,21 +12,18 @@
 
 ActiveRecord::Schema[8.0].define(version: 2024_06_08_164123) do
   create_table "lab_reposts", force: :cascade do |t|
-    t.integer "user_id", null: false
-    t.text "title", null: false
+    t.string "title"
     t.text "description"
-    t.text "grade"
-    t.decimal "created_at", null: false
-    t.decimal "updated_at", null: false
+    t.string "grade"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|
-    t.text "firstName", null: false
-    t.text "lastName", null: false
-    t.text "email", null: false
-    t.decimal "created_at", null: false
-    t.decimal "updated_at", null: false
+    t.string "firstName"
+    t.string "lastName"
+    t.string "Email"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
-
-  add_foreign_key "lab_reposts", "users"
 end
