@@ -1,0 +1,12 @@
+<% content_for :title, "Editing lab repost" %>
+
+<h1>Editing lab repost</h1>
+
+<%= render "form", lab_repost: @lab_repost %>
+
+<br>
+
+<div>
+  <%= link_to "Show this lab repost", @lab_repost %> |
+  <%= link_to "Back to lab reposts", lab_reposts_path %>
+</div>

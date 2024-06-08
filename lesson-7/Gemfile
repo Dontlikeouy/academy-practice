@@ -58,3 +58,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+
+gem "rubocop-performance"
+gem "rubocop-rails"
+gem "typeprof"

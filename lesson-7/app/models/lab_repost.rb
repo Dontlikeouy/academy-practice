@@ -1,0 +1,2 @@
+class LabRepost < ApplicationRecord
+end

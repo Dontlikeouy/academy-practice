@@ -234,6 +234,8 @@ GEM
       nokogiri (~> 1.14)
     rainbow (3.1.1)
     rake (13.2.1)
+    rbs (3.5.1)
+      logger
     rdoc (6.7.0)
       psych (>= 4.0.0)
     regexp_parser (2.9.2)
@@ -303,6 +305,8 @@ GEM
       actionpack (>= 6.0.0)
       activejob (>= 6.0.0)
       railties (>= 6.0.0)
+    typeprof (0.21.11)
+      rbs (>= 1.8.1)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.5.0)
@@ -348,11 +352,14 @@ DEPENDENCIES
   propshaft
   puma (>= 5.0)
   rails!
+  rubocop-performance
+  rubocop-rails
   rubocop-rails-omakase
   selenium-webdriver
   sqlite3 (>= 1.4)
   stimulus-rails
   turbo-rails
+  typeprof
   tzinfo-data
   web-console
 

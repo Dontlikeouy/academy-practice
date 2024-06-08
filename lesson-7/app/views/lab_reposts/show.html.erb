@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @lab_repost %>
+
+<div>
+  <%= link_to "Edit this lab repost", edit_lab_repost_path(@lab_repost) %> |
+  <%= link_to "Back to lab reposts", lab_reposts_path %>
+
+  <%= button_to "Destroy this lab repost", @lab_repost, method: :delete %>
+</div>
