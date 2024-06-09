@@ -25,7 +25,7 @@ Stack trace - отчёт о шагах программы, что показыв
 
 Какие инструменты для debug предоставляет ruby on rails7
 
-step by step
-breakpoints
-context 
-catching exceptions
+- step by step
+- breakpoints
+- context 
+- catching exceptions
