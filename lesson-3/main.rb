@@ -2,13 +2,11 @@ def check_word
   word = ''
   while word == ''
     puts 'Введите слово'
-    word = gets.chomp.to_s
+    word = gets.to_s.chomp.to_s
   end
-  if word.downcase[-2, 2] == 'cs'
-    puts 2**word.length
-  else
-    puts word.reverse
-  end
+  return 2**word.length if word.downcase[-2, 2] == 'cs'
+
+  word.reverse
 end
 
 def add_pokemon
@@ -20,17 +18,14 @@ def add_pokemon
     name = ''
     while name == ''
       puts 'Какое имя?'
-      name = gets.chomp.to_s
+      name = gets.to_s.chomp
     end
     color = ''
     while color == ''
       puts 'Какой цвет?'
-      color = gets.chomp.to_s
+      color = gets.to_s.chomp
     end
     pokemons.append({ name: name, color: color })
   end
   pokemons
 end
-
-puts check_word
-puts add_pokemon
