@@ -12,9 +12,7 @@ File.open('file.txt') do |file|
 
   text = file.select { |line| line.match?(/ #{age}$/) }.join
 
-  File.open('result.txt', 'w') do |result|
-    result.write(text)
-  end
+  File.write('result.txt', text)
 
   # ¯\_(ಠ_ಠ)_/¯
   if start != text.length

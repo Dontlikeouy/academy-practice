@@ -14,7 +14,7 @@ file = File.open(path, 'a+')
 balance = is_exist ? file.read.to_i : 100
 
 loop do
-  puts "\nВведите команду:"
+  puts "\nВведите команду D/W/B/Q:"
   case gets.to_s.chomp
   when 'D' # deposit
     puts 'Введите сумму:'
