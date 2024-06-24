@@ -1,0 +1,249 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/cookl/Документы/Ruby/academy-practice/lesson-7/app/controllers/lab_reposts_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/home/cookl/Документы/Ruby/academy-practice/lesson-7/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/cookl/Документы/Ruby/academy-practice/lesson-7/app/controllers/users_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/home/cookl/Документы/Ruby/academy-practice/lesson-7/app/models/lab_repost.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/cookl/Документы/Ruby/academy-practice/lesson-7/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/cookl/Документы/Ruby/academy-practice/lesson-7/app/models/user.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/cookl/Документы/Ruby/academy-practice/lesson-7/app/channels/application_cable/channel.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/cookl/Документы/Ruby/academy-practice/lesson-7/app/channels/application_cable/connection.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/cookl/Документы/Ruby/academy-practice/lesson-7/app/helpers/application_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/cookl/Документы/Ruby/academy-practice/lesson-7/app/helpers/lab_reposts_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/cookl/Документы/Ruby/academy-practice/lesson-7/app/helpers/users_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/cookl/Документы/Ruby/academy-practice/lesson-7/app/jobs/application_job.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/cookl/Документы/Ruby/academy-practice/lesson-7/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1717883047
+  }
+}
